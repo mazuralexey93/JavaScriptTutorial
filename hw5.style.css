@@ -1,0 +1,52 @@
+.wrapper2 {
+  display: flex;
+}
+
+.board {
+  display:flex;
+  flex-wrap:wrap;
+  height: 416px;
+  width: 416px;
+  border: 1px solid black;
+}
+
+.numbers {
+  width: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.number {
+  text-align: center;
+  line-height: 52px;
+}
+
+.letters {
+  margin-left: 50px;
+  width: 416px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.letter {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bCell {
+  
+  width: 50px;
+  height: 50px;
+  background-color: #077;
+  border: 1px solid black;
+}
+
+.wCell {
+  width: 50px;
+  height: 50px;
+  background-color: #fbb;
+  border: 1px solid black;
+}
+
