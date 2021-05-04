@@ -6,6 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #popup {
+            position: fixed;
+            width: 1024px;
+            text-align: center;
+            background-color: azure;
+            height: 350px;
+            top: 150px;
+            padding: 10px;
+            left: calc(50%-512px);
+            display: none;
+        }
+
+        .arrow {
+            border-radius: 7px;
+            border: 1px solid gray;
+            font-size: 24px;
+        }
+
+        #cartPopup {
+            position: fixed;
+            width: 1024px;
+            background-color: rgb(247, 171, 171);
+            height: 450px;
+            top: 150px;
+            padding: 10px;
+            left: calc(50%-512px);
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,7 +43,11 @@
 
     <div id="cart"></div>
 
-    <script type="text/javascript" src="hw5.basket.js"></script>
+    <div id="popup"></div>
+
+    <div id="cartPopup"></div>
+
+    <script type="text/javascript" src="myCart.js"></script>
 </body>
 
 
